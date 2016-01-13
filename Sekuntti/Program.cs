@@ -11,7 +11,7 @@ namespace Sekuntti
         static void Main(string[] args)
         {
             uint Sec;
-            Console.WriteLine("Anna sekunttimäärä");
+            Console.WriteLine("Anna sekunttimäärä:");
             Sec = uint.Parse(Console.ReadLine());
             uint T = (Sec / 3600);
             uint M = ((Sec - (T * 3600)) / 60);
